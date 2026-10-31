@@ -2,7 +2,7 @@ body {
   margin: 0;
   padding: 32px 16px;
   background: #000;
-  font-family: Arial, sans-serif;
+  font-family: 'Montserrat', Arial, sans-serif;
 }
 
 .page {
@@ -15,24 +15,30 @@ body {
 header {
   display: flex;
   justify-content: space-between;
-  background: #1a1a1a;
+  background: transparent; 
 }
 
 .logo {
   padding: 16px 40px;
-  background: black;
+  background: transparent; 
   text-decoration: none;
 }
 
 .logo img {
-  display: block;
-  height: 32px;
-  width: auto;
-  filter: invert(1);
+  max-width: 140px;
+  height: auto;
+  filter: invert(1);          
+  mix-blend-mode: lighten; 
+}
+
+nav {
+  flex: 1;                   
+  background: #2a2a2a;     
 }
 
 nav ul {
   display: flex;
+  justify-content: flex-end;
   margin: 0;
   padding: 0;
   list-style: none;
@@ -70,6 +76,8 @@ main img {
   display: block;
   width: 100%;
   height: auto;
+  box-shadow: 0 14px 28px -10px rgba(227, 25, 55, 0.6);
+  clip-path: inset(0 0 -40px 0);
 }
 
 main p {

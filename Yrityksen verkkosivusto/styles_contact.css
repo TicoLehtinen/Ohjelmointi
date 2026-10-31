@@ -1,0 +1,103 @@
+body {
+  margin: 0;
+  padding: 32px 16px;
+  background: #000;
+  font-family: 'Montserrat', Arial, sans-serif;
+}
+
+.page {
+  max-width: 1024px;
+  margin: 0 auto;
+  background: linear-gradient(to bottom, #1a1a1a, #0d0d0d);
+  color: #fff;
+}
+
+.site-header {
+  display: flex;
+  justify-content: space-between;
+  background: transparent;
+}
+
+.logo {
+  padding: 16px 40px;
+  background: transparent;
+  text-decoration: none;
+}
+
+.logo img {
+  max-width: 140px;
+  height: auto;
+  filter: invert(1);
+  mix-blend-mode: lighten;
+}
+
+nav {
+  flex: 1;
+  background: #2a2a2a;
+}
+
+nav ul {
+  display: flex;
+  justify-content: flex-end;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+nav a {
+  display: block;
+  padding: 16px 24px;
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  transition: transform 0.2s ease;
+}
+
+nav a[aria-current="page"],
+nav a.active {
+  border-bottom: 3px solid #e31937;
+}
+
+nav a:hover,
+nav a:focus-visible {
+  transform: translateY(-4px) scale(1.15);
+  color: #ff4d63;
+}
+
+.contact {
+  display: flex;
+  gap: 40px;
+  align-items: flex-start;
+  padding: 32px 32px 48px;
+}
+
+.contact-info {
+  flex: 0 0 280px;
+}
+
+.contact-info h1 {
+  margin: 0 0 24px;
+  font-size: 32px;
+  text-align: left;
+}
+
+address {
+  font-style: italic;
+  font-size: 15px;
+  line-height: 1.7;
+  color: #ddd;
+}
+
+.map {
+  flex: 1;
+  display: block;
+}
+
+.map img {
+  display: block;
+  width: 100%;
+  aspect-ratio: 16 / 10;
+  object-fit: cover;
+  object-position: center;
+  background-color: #333;
+}

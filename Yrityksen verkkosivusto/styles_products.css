@@ -1,0 +1,126 @@
+body {
+  margin: 0;
+  padding: 32px 16px;
+  background: #000;
+  font-family: 'Montserrat', Arial, sans-serif;
+}
+
+.page {
+  max-width: 1024px;
+  margin: 0 auto;
+  background: linear-gradient(to bottom, #1a1a1a, #0d0d0d);
+  color: #fff;
+}
+
+.site-header {
+  display: flex;
+  justify-content: space-between;
+  background: transparent;
+}
+
+.logo {
+  padding: 16px 40px;
+  background: transparent;
+  text-decoration: none;
+}
+
+.logo img {
+  max-width: 140px;
+  height: auto;
+  filter: invert(1);
+  mix-blend-mode: lighten;
+}
+
+nav {
+  flex: 1;
+  background: #2a2a2a;
+}
+
+nav ul {
+  display: flex;
+  justify-content: flex-end;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+nav a {
+  display: block;
+  padding: 16px 24px;
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  transition: transform 0.2s ease;
+}
+
+nav a[aria-current="page"],
+nav a.active {
+  border-bottom: 3px solid #e31937;
+}
+
+nav a:hover,
+nav a:focus-visible {
+  transform: translateY(-4px) scale(1.15);
+  color: #ff4d63;
+}
+main {
+  padding: 0 28px 40px;
+}
+ 
+.hero {
+  display: block;
+  width: 100%;
+  aspect-ratio: 4 / 1;
+  object-fit: cover;
+  object-position: center 90%;
+  box-shadow: 0 14px 28px -10px rgba(227, 25, 55, 0.6);
+  clip-path: inset(0 0 -40px 0); 
+}
+
+.intro {
+  margin: 20px 0 28px;
+  text-align: center;
+  font-size: 15px;
+  color: #ddd;
+}
+ 
+.products {
+  display: flex;
+  gap: 14px;
+  align-items: stretch;
+}
+ 
+.product {
+  flex: 1;
+  background-color: #262626;
+  padding: 20px 16px 24px;
+}
+ 
+.product h2 {
+  font-size: 18px;
+  margin-bottom: 16px;
+}
+ 
+.product img {
+  display: block;
+  width: 100%;
+  aspect-ratio: 1 / 1;  
+  object-fit: cover;
+  background-color: #333;
+}
+
+.product img.model-y     { object-position: 70% center; }
+.product img.cybertruck  { object-position: 67% center; }
+.product img.roadster    { object-position: 75% center; }
+ 
+.caption {
+  margin: 6px 0 12px;
+  font-size: 12px;
+  font-style: italic;
+  color: #888;
+}
+ 
+.product p:last-child {
+  font-size: 14px;
+  color: #ddd;
+}
