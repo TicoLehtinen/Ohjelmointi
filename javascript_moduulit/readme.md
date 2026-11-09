@@ -2,7 +2,7 @@
 
 ### JS-moduulit 1 ja 2
 
-(https://users.metropolia.fi/~ticol/javascript/javascript1ja2/)
+https://users.metropolia.fi/~ticol/javascript/javascript1ja2/
 
 Tehdyt tehtävät:
 
