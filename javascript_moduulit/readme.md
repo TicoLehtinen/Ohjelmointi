@@ -2,7 +2,7 @@
 
 ### JS-moduulit 1 ja 2
 
-[Linkki JS-moduulin 1 kansiooni users.metropolia.fi-palvelussa](https://users.metropolia.fi/~username/js1-folder)
+(https://users.metropolia.fi/~ticol/javascript/javascript1ja2/)
 
 Tehdyt tehtävät:
 
@@ -20,7 +20,7 @@ Tehdyt tehtävät:
 
 ### JS-moduuli 3
 
-[Linkki JS-moduulin 3 kansiooni users.metropolia.fi-palvelussa](https://users.metropolia.fi/~username/js2-folder)
+https://users.metropolia.fi/~ticol/javascript/javascript3/
 
 Tehdyt tehtävät:
 
