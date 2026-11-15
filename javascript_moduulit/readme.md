@@ -32,3 +32,17 @@ Tehdyt tehtävät:
 
 **Yhteensä 10p**
 
+### JS-moduuli 4
+
+https://users.metropolia.fi/~ticol/javascript/javascript4/
+
+Tehdyt tehtävät:
+
+- Tehtävä 1: 2 p
+- Tehtävä 2: 2 p
+- Tehtävä 3: 2 p
+- Tehtävä 4: 2 p
+- Tehtävä 5: 2 p
+
+**Yhteensä 10p**
+
