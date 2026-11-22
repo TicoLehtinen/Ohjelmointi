@@ -46,3 +46,14 @@ Tehdyt tehtävät:
 
 **Yhteensä 10p**
 
+### Flask-moduuli
+
+https://users.metropolia.fi/~ticol/javascript/flask/
+
+Tehdyt tehtävät: 
+
+- Tehtävä 2: 10p
+
+
+**Yhteensä 10p**
+
